@@ -2,13 +2,13 @@
 Backend Setup Steps 
 -------------------------
 Primary Use Cases to Pick (Backend-focused)
->>User Registration & KYC
+1.User Registration & KYC
  Customer signs up
  Uploads KYC documents
  Backend validates and stores user profile
 Reason to pick: foundational functionality; demonstrates database, authentication, and file handling
 
->>Account Creation
+2. Account Creation
   Customer requests a new account (Savings, Current, FD)
   Backend generates account number and validates initial deposit
   Reason to pick:  transactional logic, and API design
