@@ -1,6 +1,18 @@
 # smartbank
 Backend Setup Steps 
+-------------------------
+Primary Use Cases to Pick (Backend-focused)
+>>User Registration & KYC
+ Customer signs up
+ Uploads KYC documents
+ Backend validates and stores user profile
+Reason to pick: foundational functionality; demonstrates database, authentication, and file handling
 
+>>Account Creation
+  Customer requests a new account (Savings, Current, FD)
+  Backend generates account number and validates initial deposit
+  Reason to pick:  transactional logic, and API design
+-----------------------------------------------------------------------------------------------------------
 1.Created a virtual environment
 
 I started by creating and activating a virtual environment in PyCharm to isolate dependencies.
